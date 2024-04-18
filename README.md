@@ -56,7 +56,6 @@ with CORS enabled to allow GET from `localhost:8000`.
 
 ### Cut a release
 
-
 ---
 
 &copy; 2024 Alberto MH  
