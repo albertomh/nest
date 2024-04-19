@@ -12,3 +12,8 @@ serve:
 # build the site and place static assets in the `dist/` directory
 build:
   npx @11ty/eleventy
+  npx html-minifier \
+    --input-dir ./dist \
+    --output-dir ./dist \
+    --collapse-whitespace \
+    --file-ext html
