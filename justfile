@@ -4,3 +4,11 @@
 
 default:
   @just --list
+
+# run a hot-reloading local server on :8080
+serve:
+  npx @11ty/eleventy --serve
+
+# build the site and place static assets in the `dist/` directory
+build:
+  npx @11ty/eleventy
