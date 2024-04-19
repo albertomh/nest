@@ -11,7 +11,7 @@ DepositDuck's static marketing site.
 
 ### Prerequisites
 
-To develop DepositDuck nest the following must be available locally:
+To develop `nest` the following must be available locally:
 
 - [just](https://github.com/casey/just)
 - [pnpm](https://pnpm.io/installation)
@@ -22,7 +22,11 @@ To develop DepositDuck nest the following must be available locally:
 A `justfile` defines common development tasks. Run `just` to show all available recipes.
 
 ```sh
+# run a hot-reloading local server on :8080
+just serve
 
+# build the site and place static assets in the `dist/` directory
+just build
 ```
 
 ### Development workflow
