@@ -1,4 +1,5 @@
-# DepositDuck nest
+<!-- markdownlint-disable MD041 -->
+![DepositDuck nest logo](nest.svg "DepositDuck nest")
 
 DepositDuck's static marketing site.
 
