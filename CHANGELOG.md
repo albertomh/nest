@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - A skeletal `src/` directory to build on.
 - Build and local dev configuration.
 - A justfile to run project commands (eg. build, serve).
+- Navbar and footer.
