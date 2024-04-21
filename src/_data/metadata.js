@@ -1,3 +1,10 @@
+/**
+ * For variables that must be accessible from every template.
+ *
+ * Usage in nunjucks template: {{ metadata.<key> }}
+ *
+ * @returns Record<string, string>
+ */
 module.exports = function() {
     const staticOrigin = "https://pub-ea1b3388186e482ea39aa713d3e5aa47.r2.dev/static/";
     const speculumRelease = "speculum@1.3.0";
