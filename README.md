@@ -54,6 +54,19 @@ guidelines when writing commit messages.
 
 TODO: document
 
+```text
+src/
+ │
+ ├╴_data/
+ │   ╰╴metadata.js | For variables accessible from every template
+ │
+ ├╴_includes/
+ │
+ ├╴_layouts/
+ │
+ ╰╴index.njk
+```
+
 ## Frontend styles
 
 The frontend is styled using Bootstrap 5. Specifically, a project-specific version
